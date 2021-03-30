@@ -1,0 +1,200 @@
+body {
+    max-width: 1260px;
+    margin: auto;
+    color: black;  }
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 40px; 
+    float: left; }
+.logo {
+    text-decoration: none;
+    color: black; }
+.logo:visited {
+    color: black;}
+.menubutton {
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #DFAB00; }
+.dropdownmenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    min-width: 150px; }
+.dropdownmenu a {
+    color: black;
+    padding: 12px 16px; 
+    text-decoration: none;
+    display: block; }
+.rightmenu:hover .dropdownmenu {
+    display: block; }
+.dropdownmenu a:hover {
+    background-color: #FFC300;
+    color: black; }
+.rightmenu:hover .menubutton {
+    background-color: #FFC300; }
+.rightmenu {
+    float: right; 
+    margin: 25px;}
+header {
+    background-color: rgb(26, 188, 156, 0.3); 
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    padding: 50px; 
+    display: inline-block}
+h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif; }
+
+
+img {
+    width: 200px; }
+.ett {
+    grid-area: ett; }
+.tva{
+    grid-area: tva; 
+    height: 185px; }
+.tre{
+    grid-area: tre;
+    height: 302px;}
+.fyra{
+    grid-area: fyra; }
+.fem{
+    grid-area: fem; }
+.sex{
+    grid-area: sex; }
+.sju{
+    grid-area: sju; }
+.atta {
+    grid-area: atta;
+    height: 144px;}
+.tio {
+    grid-area: tio; }
+.elva{
+    grid-area: elva; 
+    height: 185px; }
+.tolv{
+    grid-area: tolv;
+    height: 302px;}
+.tretton{
+    grid-area: tretton;
+    height: 144px;}
+.fjorton{
+    grid-area: fjorton;
+    height: 201px; }
+.femton{
+    grid-area: femton; }
+.sexton{
+    grid-area: sexton;
+    height: 302px; }
+.sjutton {
+    grid-area: sjutton;
+    height: 144px;}
+.arton {
+    grid-area: arton; }
+.nitton{
+    grid-area: nitton; 
+    height: 185px;; }
+.tjugo{
+    grid-area: tjugo;
+    height: 302px;}
+.tjugoett{
+    grid-area: tjugoett;
+    height: 144px;}
+.tjugotva{
+    grid-area: tjugotva;
+    height: 201px;}
+.tjugotre{
+    grid-area: tjugotre; }
+.tjugofyra{
+    grid-area: tjugofyra;
+    height: 302px;}
+.tjugofem {
+    grid-area: tjugofem;
+    height: 144px;}
+.tjugosex {
+    grid-area: tjugosex; }
+.tjugosju{
+    grid-area: tjugosju; 
+    height: 185px; }
+.tjugoatta{
+    grid-area: tjugoatta;
+    height: 302px;}
+.tjugonio{
+    grid-area: tjugonio; 
+    height: 144px; }
+.trettio{
+    grid-area: trettio;
+    height: 201px;}
+.trettioett{
+    grid-area: trettioett; }
+.trettiotva{
+    grid-area: trettiotva; 
+    height: 302px;}
+.trettiotre {
+    grid-area: trettiotre;
+    height: 144px;}
+.nio {
+    grid-area: nio; }
+.structure {
+    display:grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "ett nio nio nio nio fem"
+        "tva nio nio nio nio sex"
+        "tre nio nio nio nio sju"
+        "fyra nio nio nio nio atta"
+        "tio nio nio nio nio fjorton"
+        "elva nio nio nio nio femton"
+        "tolv nio nio nio nio sexton"
+        "tretton nio nio nio nio sjutton"
+        "arton nio nio nio nio tjugotva"
+        "nitton nio nio nio nio tjugotre"
+        "tjugo nio nio nio nio tjugofyra"
+        "tjugoett nio nio nio nio tjugofem"
+        "tjugosex nio nio nio nio trettio"
+        "tjugosju nio nio nio nio trettioett"
+        "tjugoatta nio nio nio nio trettiotva"
+        "tjugonio nio nio nio nio trettiotre";}
+.mission {
+    font-size: 34px;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: left;
+    width: 17%;
+    margin-bottom: 10px;
+    float: none; }
+.statement {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center; }
+.staff {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 35px;
+    float: none; }
+.headshot {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 10px solid #FFC300; }
+.about {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px; }
+.bio {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;}
+a.links {
+    text-decoration: none;
+    color: #DFAB00}
+a.links:hover {
+    color: #FFC300;}
