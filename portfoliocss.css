@@ -2,23 +2,13 @@
 img.top {
     width: 100%;
     height: auto; 
-    display: block;}
-h1.head {
-    font-size: 100px; 
-    line-height: 10%;
-    padding-top: 4%; 
-    text-align: center;
-    font-family: 'WebFont', Arial, sans-serif;
-} 
-p.head {
-    font-family: 'Montserrat', sans-serif; 
-    text-align: center;
-    font-size: 30px;
-    color:#404040;}
+    display: block; }
+h1 {
+    line-height: 1em;
+    font-family:  'Quicksand', sans-serif}
 body {
     font-size: 20px; 
-    margin: 0px;
-    background-color: beige}
+    margin: 0px; }
 nav ul li {
     list-style-type: none;
     display: inline; 
@@ -26,14 +16,14 @@ nav ul li {
     padding: 5px;}
 nav ul {
     padding: 5px;
-    background-color: #BFDFC5; }
+    background-color: #D7D991; }
 a {
     text-decoration: none;
     font-size: 20px;
     color: black; 
-    font-family: 'Montserrat', sans-serif;}
+    font-family:  'Quicksand', sans-serif;}
 li.nav:hover {
-    background-color: #80C9D4; }
+    background-color: #B9C069; }
 footer {
     font-size: 10px;
     color:#404040;
@@ -47,47 +37,41 @@ footer {
     color: #404040;}
 .gridwrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
     align-content: center;
     margin: 0px; }
-.first {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.3px; }
-/*ABOUT*/
-.contactme {}
-.about {
-    margin: 0;
-    background-color: lightpink}
-.heading {
-    font-family: 'Dancing Script', cursive; } 
-.me {
+img.home {
     border: 1px solid black;  
-    margin-left: 20px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-right: 30px;
-    float: left;
-    width: 35%; }  
+    margin: 20px;
+    float: right;
+    width: 35%; }
+.discoverbox {  
+    background-color: #F6F6F5;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #C6C4BD;}
+main {
+    padding-top: 0em;
+    padding: 1em; 
+    font-family:  'Quicksand', sans-serif;
+    line-height: 1.5em;
+    margin: 20px;}
+.heading {
+    font-family:  'Quicksand', sans-serif; 
+    margin-top: 0px; }  
 .intro { 
-    font-family: 'Montserrat', sans-serif;
+    font-family:  'Quicksand', sans-serif;
     line-height: 1.5em;  
     margin: 20px; 
     margin-top: 50px;}
-main {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5em;
-    margin: 20px; }
 .all { 
     text-align: center;
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family:  'Quicksand', sans-serif;
     padding: 20px;
     color: #404040;
-    background-image: url("board.jpg");
     position: static; 
     line-height: 1.3em;}
-.bottom
-    {font-size: 10px;}
 .fa {
     padding: 10px;
     font-size: 30px;
@@ -104,30 +88,36 @@ main {
 .fa-instagram {
     background: #125688;
     color: white; }
-
 /*RESUME*/
-.resumepage {   
-    margin: 0px;
-    background-color: lightcyan; }
+.resumepage {
+    background-color: #E7EBF4;}
 .resume {
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px; 
-    background-color: #F9F5EE;
     padding: 20px;
-    font-family: 'Montserrat', sans-serif; 
-    max-width: 900px;}
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #C6C4BD;
+    font-family:  'Quicksand', sans-serif;
+    max-width: 900px;
+    background-color: white;}
 .extra {
-    color: #0193aa; }
+    color: #5086B5; }
 .extra:hover {
-    color: #3EAA01;}
+    color: #7F8C16;}
 .center {
     text-align: center;
     margin: 5px;}
 .text {
     font-size: 15px; 
-    margin-top: 5px; 
-    font-family:'Montserrat', sans-serif;}
+    margin-top: 5px;
+    font-family:  'Quicksand', sans-serif}
+.experience {
+    font-size: 15px; 
+    font-family:  'Quicksand', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;}
 .school {
     font-size: 15px;
     margin-bottom: 5px;
@@ -139,126 +129,79 @@ main {
 .name {
     font-weight: 600;} 
 strong {
-    font-weight: 600;}
+    font-weight: 700;}
 h4 {
     margin-top: 20px;
-    margin-bottom: 0px; }
-
-/*WRITING SAMPLES*/
-.button {
-    color: white; 
-    margin: 50px;
-    text-align: center}
+    margin-bottom: 0px;
+    font-family:  'Quicksand', sans-serif}
+.bottom
+    {font-size: 10px;}
+/*SAMPLE WORK*/
+.sample {
+    padding: 10px;}
+.synopsis {
+    font-family:  'Quicksand', sans-serif;
+    font-size: .8em;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #C6C4BD;
+    background-color: #F6F6F5; 
+    padding: 20px; 
+    margin: 25px;}
 .write {
     font-size: 2.5em ;
-    font-family: 'Dancing Script', cursive; 
+    font-family:  'Quicksand', sans-serif; 
     text-align: center;
     margin-bottom: 0px;}
 .sentence {
-    font-family:'Montserrat', sans-serif;
+    font-family:  'Quicksand', sans-serif;
     font-size: 1em;
-    padding-left: 50px; 
-    padding-right: 50px;
+    padding-left: 20px; 
+    padding-right: 20px;
     text-align: center;
     margin-top: 10px; }
-.one {
-    border: 1px solid black;
-    font-size: 30px;
+a.button:link { 
+    color: #365979;
+    border: 1px solid #365979; 
+    background-color: #ECF5FD;
     padding: 10px;
-    text-align: center;
-    display: grid;
-    align-items: center; 
-    background-image: url("girl.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-.two {
-    border: 1px solid black;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    display: grid;
-    align-items: center; 
-    background-image: url("car.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-.three {
-    border: 1px solid black;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    display: grid;
-    align-items: center; 
-    background-image: url("butterfly.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-.four {
-    border: 1px solid black;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    display: grid;
-    align-items: center; 
-    background-image: url("ny.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;}
-.five {
-    border: 1px solid black;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    display: grid;
-    align-items: center; 
-    background-image: url("me.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-.six {
-    border: 1px solid black;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    display: grid;
-    align-items: center; 
-    background-image: url("pills.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-.maingrid {
-    display: grid;
-    grid-template-columns: minmax(300px, 1fr) 1fr 1fr;
-    grid-auto-rows: 300px;
-    grid-gap: 40px;
-}
-@media (max-width: 800px) {
-    .maingrid {
-        grid-template-columns: minmax(300px, 1fr) 1fr;
-    }
-}
-@media (max-width: 600px) {
-    .maingrid {
-        grid-template-columns: minmax(300px, 1fr);
-    }
-}
-    
+    position: relative;
+    bottom: 19px;
+    border-radius: 5px;
+    text-decoration: none; }
+a.button:visited { 
+    color: #365979;
+    border: 1px solid #365979; 
+    background-color: #ECF5FD; }
+a.button:hover { 
+    color: #2D4005 ;
+    border: 1px solid #2D4005; 
+    background-color: #EFF1E2; }
 /*CONTACT ME*/
-.contactme {
-    margin: 0;
-    background-color: lightpink; }
+.contactbody {
+    background-color: #E7EBF4}
+img.bye {
+    border: 1px solid black;
+    margin: 20px;
+    margin-right: 30px;
+    width: 30%;
+    float: left;}
+.contactinfo{
+    font-family:  'Quicksand', sans-serif;
+    line-height: 1.5em;
+    margin: 0px; 
+    float: left;}
 .headcontact {
-    font-family: 'Dancing Script', cursive; 
-    text-align: center;
-    margin: 20px; }
-.whole {
-    border: 1px solid black; 
-    width: 50%;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px; 
-    background-color: #F9F5EE; }
-.contact {
-    font-family:'Montserrat', sans-serif;
-    margin-left: 30px;
-    margin-right: 30px; }
+    font-family:  'Quicksand', sans-serif;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-align: center;}
 ul li.follow {
     list-style-type: none;
-    font-family:'Montserrat', sans-serif; 
+    font-family:  'Quicksand', sans-serif;
     line-height: 1.5em; 
     text-indent: 60px; }
+.contactfooter {
+    float: left;
+    width: 100%;}
